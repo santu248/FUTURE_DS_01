@@ -19,7 +19,7 @@
 
 **Objective:** Help a retail business understand which products, categories and regions drive revenue and profit, how sales change over time, and where to focus to grow faster.
 
-👉 **[Click here to view Project 2 Full Report (PDF)](Project_2_Superstore_Report.pdf)** *(Make sure to upload the file with this name)*
+👉 **[Click here to view Project 2 Full Report (PDF)](Project_2_Superstore_Report.pdf)** 
 
 ### 📊 Dataset
 Sample Superstore: four years of US orders (Jan 2014 to Dec 2017), 9,994 order lines and 21 columns. No missing values or duplicate rows were found.

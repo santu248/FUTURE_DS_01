@@ -1,40 +1,62 @@
-# Task 1: Business Sales Data Analysis
+# Task 1: Business Sales Performance Analytics
 
 **Intern:** Santu Mondal  
 **CIN ID:** FIT/OCT26/DS24105  
-**Dataset:** Online Retail Dataset (Kaggle)  
-**Tools Used:** Power BI / Data Cleaning / KPI Analysis
+**Domain:** Data Science & Analytics  
+**Tools Used:** Python (pandas, matplotlib, ReportLab), Power BI
 
 ---
 
-## 📊 Project Dashboard
-👉 **[Click here to view the full interactive Dashboard (PDF)](dashboard.pdf)**
+## 📌 Project 1: Online Retail Dataset (Kaggle) (1)
+
+**Objective:** Provide a quick, client-ready visual summary of key business metrics from the Online Retail Dataset.
+
+👉 **[Click here to view Project 1 Dashboard (PDF)](dashboard.pdf)**
 
 ---
 
-## 📝 Project Overview
-The objective of this task is to analyze business sales data to identify revenue trends, top-selling products, high-value categories, and regional performance. This dashboard provides a client-ready view of key business metrics and actionable insights.
+## 📌 Project 2: Superstore Sales Dataset (2)
 
-## 📈 Key Insights & KPIs (2014 - 2017)
-- **Total Sales:** $2.30M
-- **Total Profit:** $286K (Profit Margin: 12.47%)
-- **Total Orders:** 5,009
-- **Total Customers:** 793
-- **Average Order Value:** $459
+**Objective:** Help a retail business understand which products, categories and regions drive revenue and profit, how sales change over time, and where to focus to grow faster.
 
-### Deep Dive Insights:
-1. **Sales Growth:** Sales grew by 51% from 2014 to 2017, but the profit margin remained stagnant near 13%.
-2. **Discount Impact:** Discounts above 20% resulted in a loss of approximately $135K. Capping discounts at 20% is highly recommended.
-3. **Category Performance:** Technology and Office Supplies contribute 94% of the total profit. Furniture margin is very low (2.5%).
-4. **Regional Losses:** States like Texas, Ohio, Pennsylvania, and Illinois are loss-making and require cost review.
-5. **Seasonality:** Sales peak in September, November, and December. It is recommended to stock up early and use January-February for clearance.
+👉 **[Click here to view Project 2 Full Report (PDF)](README.pdf)** *(Make sure to upload the file with this name)*
 
-## 💡 Actionable Recommendations
-- Cap maximum discounts at 20% to prevent profit loss.
-- Reprice or discontinue loss-making sub-categories like Tables and Bookcases.
-- Focus marketing efforts on high-margin categories (Technology & Office Supplies).
-- Review operational costs in loss-making regions (Central & South).
-- Optimize inventory planning for Q4 (Sep-Dec) to meet seasonal demand.
+### 📊 Dataset
+Sample Superstore: four years of US orders (Jan 2014 to Dec 2017), 9,994 order lines and 21 columns. No missing values or duplicate rows were found.
+
+### 🛠️ Approach
+- **Cleaning:** Standardised column names, converted dates, checked duplicates, added Year, Month, Profit Margin and Shipping Days.
+- **KPIs:** Total sales, profit, margin, orders, customers and average order value.
+- **Analysis:** Trends by month and year, category, sub-category, region, segment, state, discount level and top products.
+- **Dashboard:** Single-page visual summary with insights and recommendations.
+
+### 📈 Headline KPIs
+
+| Total Sales | Total Profit | Profit Margin | Orders | Customers | Avg Order Value |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **$2.30M** | **$286K** | **12.47%** | **5,009** | **793** | **$459** |
+
+### 🔍 Key Findings
+- Sales grew from $484K (2014) to $733K (2017), but profit margin stayed near 13%.
+- Discounts above 20% are loss-making: the 21-40% band runs at -15% margin and above 40% at -77%, about $135K lost in total.
+- Furniture earns only 2.5% margin. Tables (-$17.7K) and Bookcases (-$3.5K) lose money.
+- Technology and Office Supplies produce about 94% of total profit at roughly 17% margin.
+- West and East lead on profit. Central has the lowest margin (7.9%); Texas, Ohio, Pennsylvania and Illinois are unprofitable.
+- Sales peak in September, November and December; January and February are the weakest months.
+
+### 💡 Recommendations
+- Cap discounts at 20% and require approval for anything higher.
+- Reprice Tables and Bookcases, or renegotiate supplier costs.
+- Review pricing and shipping costs in the four loss-making states.
+- Promote high-margin lines (Copiers, Accessories, Office Supplies) in marketing.
+- Build stock and run campaigns before September and November; use January and February for clearance and bundles.
+
+### 📁 Project 2 Repository Files
+- `README.pdf` - Full project report
+- `analysis.py` - Data cleaning and KPI script
+- `make_dashboard_image.py` - Generates the dashboard image
+- `cleaned_superstore.csv` - Cleaned dataset
+- `Sample_-_Superstore.csv` - Raw data
 
 ---
 *This project was completed as part of the Data Science & Analytics Internship at Future Interns.*

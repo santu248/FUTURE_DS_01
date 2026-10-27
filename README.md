@@ -19,16 +19,10 @@
 
 **Objective:** Help a retail business understand which products, categories and regions drive revenue and profit, how sales change over time, and where to focus to grow faster.
 
-👉 **[Click here to view Project 2 Full Report (PDF)](Project_2_Superstore_Report.pdf)** 
+👉 **[Click here to view Project 2 Full Report (PDF)](Project_2_Superstore_Report.pdf)**
 
 ### 📊 Dataset
 Sample Superstore: four years of US orders (Jan 2014 to Dec 2017), 9,994 order lines and 21 columns. No missing values or duplicate rows were found.
-
-### 🛠️ Approach
-- **Cleaning:** Standardised column names, converted dates, checked duplicates, added Year, Month, Profit Margin and Shipping Days.
-- **KPIs:** Total sales, profit, margin, orders, customers and average order value.
-- **Analysis:** Trends by month and year, category, sub-category, region, segment, state, discount level and top products.
-- **Dashboard:** Single-page visual summary with insights and recommendations.
 
 ### 📈 Headline KPIs
 
@@ -38,10 +32,10 @@ Sample Superstore: four years of US orders (Jan 2014 to Dec 2017), 9,994 order l
 
 ### 🔍 Key Findings
 - Sales grew from $484K (2014) to $733K (2017), but profit margin stayed near 13%.
-- Discounts above 20% are loss-making: the 21-40% band runs at -15% margin and above 40% at -77%, about $135K lost in total.
+- Discounts above 20% are loss-making: the 21-40% band runs at -15% margin and above 40% at -77%.
 - Furniture earns only 2.5% margin. Tables (-$17.7K) and Bookcases (-$3.5K) lose money.
 - Technology and Office Supplies produce about 94% of total profit at roughly 17% margin.
-- West and East lead on profit. Central has the lowest margin (7.9%); Texas, Ohio, Pennsylvania and Illinois are unprofitable.
+- West and East lead on profit. Central has the lowest margin (7.9%).
 - Sales peak in September, November and December; January and February are the weakest months.
 
 ### 💡 Recommendations
@@ -49,14 +43,25 @@ Sample Superstore: four years of US orders (Jan 2014 to Dec 2017), 9,994 order l
 - Reprice Tables and Bookcases, or renegotiate supplier costs.
 - Review pricing and shipping costs in the four loss-making states.
 - Promote high-margin lines (Copiers, Accessories, Office Supplies) in marketing.
-- Build stock and run campaigns before September and November; use January and February for clearance and bundles.
+- Build stock and run campaigns before September and November.
 
-### 📁 Project 2 Repository Files
-- `README.pdf` - Full project report
-- `analysis.py` - Data cleaning and KPI script
-- `make_dashboard_image.py` - Generates the dashboard image
-- `cleaned_superstore.csv` - Cleaned dataset
-- `Sample_-_Superstore.csv` - Raw data
+---
+
+## 📌 Project 3: E-commerce Orders Dataset (Kaggle) (3)
+
+**Objective:** Analyze the E-commerce Orders Dataset to extract actionable insights, perform data cleaning, and generate KPIs for business decision-making.
+
+### 🛠️ Approach & Code
+- **Data Cleaning:** Handled missing values, formatted dates, and standardized column names.
+- **KPI Generation:** Calculated total sales, profit, orders, and customer metrics.
+- **Script:** The complete Python logic for data processing and JSON export is available in the repository.
+
+👉 **[Click here to view the Python Analysis Script](analysis-1-fixed.py)**
+
+### 📁 Repository Files
+- `dashboard.pdf` - Project 1 Dashboard
+- `Project_2_Superstore_Report.pdf` - Project 2 Report
+- `analysis-1-fixed.py` - Python script for E-commerce Orders data cleaning and KPI generation
 
 ---
 *This project was completed as part of the Data Science & Analytics Internship at Future Interns.*
